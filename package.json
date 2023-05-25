@@ -1,13 +1,13 @@
 {
-  "name": "@sidneys/dom-tools",
+  "name": "@bengennaria/dom-tools",
   "version": "3.16.0",
   "description": "ES6 DOM manipulation library with focus on Electron-based Desktop apps",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/sidneys/dom-tools",
+  "homepage": "https://github.com/bengennaria/dom-tools",
   "author": {
-    "name": "sidneys",
-    "email": "sidneys.github.io@outlook.com",
-    "url": "https://bitbucket.org/sidneys"
+    "name": "bengennaria",
+    "email": "ben.gennaria@gmail.com",
+    "url": "https://github.com/bengennaria"
   },
   "engines": {
     "node": ">= 12.0.0",
@@ -18,8 +18,8 @@
     "tools"
   ],
   "dependencies": {
-    "@sidneys/logger": "^1.151.0",
-    "@sidneys/platform-tools": "^1.150.0",
+    "@bengennaria/logger": "git+https://bengennaria@github.com/bengennaria/logger.git",
+    "@bengennaria/platform-tools": "git+https://bengennaria@github.com/bengennaria/platform-tools.git",
     "clean-css": "^4.2.3",
     "file-url": "^3.0.0",
     "lodash": "^4.17.20",
