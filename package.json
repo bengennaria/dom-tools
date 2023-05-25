@@ -1,0 +1,36 @@
+{
+  "name": "@sidneys/dom-tools",
+  "version": "3.16.0",
+  "description": "ES6 DOM manipulation library with focus on Electron-based Desktop apps",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/sidneys/dom-tools",
+  "author": {
+    "name": "sidneys",
+    "email": "sidneys.github.io@outlook.com",
+    "url": "https://bitbucket.org/sidneys"
+  },
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "keywords": [
+    "development",
+    "tools"
+  ],
+  "dependencies": {
+    "@sidneys/logger": "^1.151.0",
+    "@sidneys/platform-tools": "^1.150.0",
+    "clean-css": "^4.2.3",
+    "file-url": "^3.0.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./lib"
+  }
+}
