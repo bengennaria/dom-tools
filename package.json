@@ -18,8 +18,8 @@
     "tools"
   ],
   "dependencies": {
-    "@bengennaria/logger": "git+https://bengennaria@github.com/bengennaria/logger.git",
-    "@bengennaria/platform-tools": "git+https://bengennaria@github.com/bengennaria/platform-tools.git",
+    "@bengennaria/logger": "github:bengennaria/logger",
+    "@bengennaria/platform-tools": "github:bengennaria/platform-tools",
     "clean-css": "^4.2.3",
     "file-url": "^3.0.0",
     "lodash": "^4.17.20",
